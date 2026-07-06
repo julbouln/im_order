@@ -8,6 +8,9 @@ module ImOrder
   class Forbidden < StandardError
   end
 
+  class Overdue < StandardError
+  end
+
   class DataInvalid < StandardError
   end
 
